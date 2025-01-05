@@ -1,23 +1,2 @@
-# Treat .jsx files as JavaScript
-*.jsx linguist-language=JavaScript
-
-# Treat .js files as JavaScript
 *.js linguist-language=JavaScript
-
-# Treat .css files as CSS
-*.css linguist-language=CSS
-
-# Ignore build and node_modules directories from language stats
-build/* linguist-vendored
-node_modules/* linguist-vendored
-
-# Ignore minified files from language stats
-*.min.js linguist-vendored
-*.min.css linguist-vendored
-
-# Optionally ignore other asset files (images, fonts)
-*.png linguist-vendored
-*.jpg linguist-vendored
-*.svg linguist-vendored
-*.ttf linguist-vendored
-*.woff linguist-vendored
+*.jsx linguist-language=JavaScript
